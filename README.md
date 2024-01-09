@@ -42,7 +42,8 @@ We provide pretrained checkpoints of the dog. You can download pretrained models
 
 # Train:
 1. Replace the train_ds and eval_ds variables in the datasets.py file with the corresponding paths.
-2. Use the following command to train：CUDA_VISIBLE_DEVICES=0 python main.py --config=aapm_sin_ncsnpp_gb.py --workdir=exp --mode=train --eval_folder=result
+2. Use the following command to train：  
+   CUDA_VISIBLE_DEVICES=0 python main.py --config=aapm_sin_ncsnpp_gb.py --workdir=exp --mode=train --eval_folder=result
 
 
 
