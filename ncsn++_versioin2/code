@@ -1,0 +1,5 @@
+
+train：
+python A_PCsampling_demo.py
+Test：
+CUDA_VISIBLE_DEVICES=0 python main.py --config=aapm_sin_ncsnpp_gb.py --workdir=exp --mode=train --eval_folder=result

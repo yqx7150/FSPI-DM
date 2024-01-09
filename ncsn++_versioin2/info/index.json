@@ -1,0 +1,20 @@
+{
+  "arch": "x86_64",
+  "build": "py37_cu102",
+  "build_number": 0,
+  "depends": [
+    "cudatoolkit >=10.2,<10.3",
+    "jpeg",
+    "libpng",
+    "numpy >=1.11",
+    "pillow >=4.1.1",
+    "python >=3.7,<3.8.0a0",
+    "pytorch 1.7.0"
+  ],
+  "license": "BSD",
+  "name": "torchvision",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1603752171535,
+  "version": "0.8.0"
+}
