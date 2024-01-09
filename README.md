@@ -14,10 +14,13 @@ The trade-off between imaging efficiency and imaging quality has always been enc
 
 # Scheme of the system and the photographs of practical system.
 <img src="Figures/1.png" alt="图片描述" width="100%" />
+
 # Flow chart of high-resolution iterative reconstruction based on diffusion model.
 <img src="Figures/2.png" alt="图片描述" width="100%" />
+
 # The reconstruction results obtained by different methods for animal and coin under various sampling rates, as well as the corresponding ground truth and Fourier spectra.
 <img src="Figures/3.png" alt="图片描述" width="100%" />
+
 # Requirements and Dependencies
 python==3.7.11  
 Pytorch==1.7.0  
