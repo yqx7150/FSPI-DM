@@ -37,3 +37,10 @@ jax==0.2.26
 We provide pretrained checkpoints of the dog. You can download pretrained models from [Baidu cloud] (https://pan.baidu.com/s/1IYIG5fQ_Ju_iRAbX455dSg) Extract the code (FSPI)
 
 # Dataset
+The data set used to train the model in this experiment comes from https://www.kaggle.com/datasets/unmoved/30k-cats-and-dogs-150x150-greyscale/data. We have extracted some uncontaminated images as training set, validation set and test set. Corresponds to "Training_set", "Validation_set" and "Test_set" in the warehouse
+
+
+
+
+
+
