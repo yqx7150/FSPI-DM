@@ -40,6 +40,9 @@ We provide pretrained checkpoints of the dog. You can download pretrained models
 * The data set used to train the model in this experiment comes from https://www.kaggle.com/datasets/unmoved/30k-cats-and-dogs-150x150-greyscale/data. We have extracted some uncontaminated images as training set, validation set and test set. Corresponds to "Training_set", "Validation_set" and "Test_set" in the warehouse  
 * The dog data used in the paper is located in the "Paper_data_dog" folder in the warehouse
 
+# Train:
+1. Replace the train_ds and eval_ds variables in the datasets.py file with the corresponding paths.
+2. Use the following command to train：CUDA_VISIBLE_DEVICES=0 python main.py --config=aapm_sin_ncsnpp_gb.py --workdir=exp --mode=train --eval_folder=result
 
 
 
