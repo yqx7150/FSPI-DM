@@ -46,9 +46,9 @@ We provide pretrained checkpoints of the dog. You can download pretrained models
    CUDA_VISIBLE_DEVICES=0 python main.py --config=aapm_sin_ncsnpp_gb.py --workdir=exp --mode=train --eval_folder=result
 
 # Test:
-1. Modify the ckpt_filename variable in A_PCsampling_demo.py to the corresponding checkpoint address
-2. Enter the ".mat" file address obtained after sampling into the y_k variable in the A_sampling.py file
-3. Use the following command to test：
+1. Modify the ckpt_filename variable in A_PCsampling_demo.py to the corresponding checkpoint address  
+2. Enter the ".mat" file address obtained after sampling into the y_k variable in the A_sampling.py file  
+3. Use the following command to test： 
    CUDA_VISIBLE_DEVICES=0 python A_PCsampling_demo.py
 
 # Acknowledgement
