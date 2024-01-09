@@ -30,3 +30,7 @@ ninja==1.10.2
 matplotlib==3.5.1  
 jax==0.2.26  
 
+# Checkpoints
+We provide pretrained checkpoints of the dog. You can download pretrained models from [Baidu cloud] (https://pan.baidu.com/s/1IYIG5fQ_Ju_iRAbX455dSg) Extract the code (FSPI)
+
+# Dataset
