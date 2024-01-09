@@ -13,7 +13,7 @@ The trade-off between imaging efficiency and imaging quality has always been enc
 </div>
 
 # Scheme of the system and the photographs of practical system.
-
+![图片描述](../Figures/1.png)
 # Flow chart of high-resolution iterative reconstruction based on diffusion model.
 
 # The reconstruction results obtained by different methods for animal and coin under various sampling rates, as well as the corresponding ground truth and Fourier spectra.
