@@ -1,7 +1,7 @@
 # FSPI-DM
 **Paper:** High-resolution iterative reconstruction at extremely low sampling rate for Fourier single-pixel imaging via diffusion model
 
-**Authors:** Xianlin Song, Xuan Liu,  Zhouxu Luo, Huilin Zhou, Jiaqing Dong, Wenhua Zhong, Guijun Wang, Binzhong He, Qiegen Liu, Senior Member, IEEE
+**Authors:** Xianlin Song, Xuan Liu, Zhouxu Luo, Jiaqing Dong, Wenhua Zhong, Guijun Wang, Binzhong He, Qiegen Liu
 
 Date : Jan-9-2024  
 Version : 1.0  
@@ -36,9 +36,6 @@ jax==0.2.26
 # Checkpoints
 We provide pretrained checkpoints of the dog. You can download pretrained models from [Baidu cloud] (https://pan.baidu.com/s/1IYIG5fQ_Ju_iRAbX455dSg) Extract the code (FSPI)
 
-# Sample
-The FSPI undersampling code and corresponding  Fourier base pattern will be released later.
-
 # Dataset
 * The data set used to train the model in this experiment comes from https://www.kaggle.com/datasets/unmoved/30k-cats-and-dogs-150x150-greyscale/data. We have extracted some uncontaminated images as training set, validation set and test set. Corresponds to "Training_set", "Validation_set" and "Test_set" in the warehouse  
 * The dog data used in the paper is located in the "Paper_data_dog" folder in the warehouse
@@ -50,7 +47,7 @@ The FSPI undersampling code and corresponding  Fourier base pattern will be rele
 
 # Test:
 1. Modify the ckpt_filename variable in A_PCsampling_demo.py to the corresponding checkpoint address  
-2. Enter the ".mat" file address obtained after sampling into the y_k variable in the A_sampling.py file  
+2. Enter the file address of the low-frequency Fourier coefficients obtained after sampling into the y_k variable in the A_sampling.py file  
 3. Use the following command to test：  
 CUDA_VISIBLE_DEVICES=0 python A_PCsampling_demo.py
 
